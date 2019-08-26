@@ -1,20 +1,36 @@
 # Registration-Login-and-some-features
 Registration , login + some other features (Dog training calendar
+<br>
 #Registration 
+<br>
 #Login
+<br>
 #Image Upload
+<br>
 #Contact Form with fille attachment 
+<br>
 #Register by provided (unique registration number if you don't have registration number you can't make registration in our website)
+<br>
 #Confirm / Unconfirm user registration 
-#Delete user
+<br>
+#Ban user
+<br>
 #Add registration numbers 
+<br>
 #Add weekly task to user to train their dogs
+<br>
 #Timeline (My trainings) of dog trainings with reviews of the trainer
+<br>
 #Add mine goals on registration.
+<br>
 #Update profile 
+<br>
 #Notification on new user registration , on creating new training record , on creating new card number for registration etc.
+<br>
 #banned users
+<br>
 #Answer to feedback from client (admin area)
+<br>
 <img src="https://scontent.fsof9-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/69615534_502274063648926_3324206435432136704_n.png?_nc_cat=110&_nc_oc=AQnxSxRavzMSOFoTdUpdDQ4fB2QIm-JAtlmE1otSS-kn4h67hX6QZ06EfNovw9XygPM&_nc_ht=scontent.fsof9-1.fna&oh=68ae9fc00fab50fdc2a560db5aaff13d&oe=5E0B2435">
 
 <hr>
