@@ -33,73 +33,85 @@ $_SESSION['alogin']=$_POST['username'];
 echo "<script type='text/javascript'> document.location = 'profile.php'; </script>";
 } else{
   
-  echo "<script>alert('Invalid Details Or Account Not Confirmed');</script>";
+  echo "<script>alert('Невалидни детайли или профила не е потвърден');</script>";
 
 }
 
 }
 
 ?>
-<!doctype html>
-<html lang="en" class="no-js">
-
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <meta charset="utf-8">
+    <meta itemprop="name" content="Headway">
+    <meta itemprop="description" content="Changelog as a service. Simple as that.">
+    <meta property="og:title" content="Headway">
+    <meta property="og:description" content="Changelog as a service. Simple as that.">
+    <meta property="og:site_name" content="Headway">
+    <meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0001, minimum-scale=1.0001, user-scalable=no">
+    <!-- <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
+    <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="stylesheet" media="screen" href="css/session-b08cd748.css">
 
-	
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/dataTables.bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-social.css">
-	<link rel="stylesheet" href="css/bootstrap-select.css">
-	<link rel="stylesheet" href="css/fileinput.min.css">
-	<link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
-	<link rel="stylesheet" href="css/style.css">
-
+    <title>ААtraining make it simple</title>
 </head>
 
 <body>
-	<div class="login-page bk-img">
-		<div class="form-content">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-md-offset-3">
-						<h1 class="text-center text-bold mt-4x">Вход</h1>
-						<div class="well row pt-2x pb-3x bk-light">
-							<div class="col-md-8 col-md-offset-2">
-								<form method="post">
+    <div id="body-cont">
+        <aside>
+   
+<center>
+               <h1 style="color:white;font-size: 50px;margin-top: 40px;">AAtraining</h1>
+    </center>
 
-									<label for="" class="text-uppercase text-sm">Твоят мейл</label>
-									<input type="text" placeholder="Username" name="username" class="form-control mb" required>
 
-									<label for="" class="text-uppercase text-sm">Парола</label>
-									<input type="password" placeholder="Password" name="password" class="form-control mb" required>
-									<button class="btn btn-primary btn-block" name="login" type="submit">Вход</button>
-								</form>
-								<br>
-								<p>Нямаш профил? <a href="register.php" >Регистрирай се</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Loading Scripts -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap-select.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.dataTables.min.js"></script>
-	<script src="js/dataTables.bootstrap.min.js"></script>
-	<script src="js/Chart.min.js"></script>
-	<script src="js/fileinput.js"></script>
-	<script src="js/chartData.js"></script>
-	<script src="js/main.js"></script>
+        </aside>
+
+        <main>
+            <div class="mCont">
+                <div class="notices">
+                </div>
+
+                <div class="signIn formHeading">
+                    <h2><center>Вход за клиенти:</center></h2>
+                </div>
+
+
+                <form accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓">
+
+                    <fieldset>
+                        <div class="fieldCont">
+                            <input required="required" type="email" name="username" id="user_email">
+                            <label class="over">Вашият е-майл адрес</label>
+                        </div>
+
+                        <div class="fieldCont last">
+                            <input autocomplete="off"  required="required" type="password" name="password" id="user_password">
+                            <label class="over">Парола</label>
+                        </div>
+
+                    </fieldset>
+
+                    <div class="formActions">
+                        <div class="buttonCont">
+                            <input type="submit" name="login" value="Вход" data-disable-with="Вход">
+                        </div>
+                    </div>
+                </form>
+                <div class="otherLinks">
+                    <a href="/register.php">Регистрация</a>
+                    <hr>
+                    <p class="brag">AAtraining Powered by:<a href="http://borisov.eu">I.Borisov</a></p>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+
 
 </body>
 
